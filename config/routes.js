@@ -8,6 +8,8 @@ module.exports = function (app, io, ss) {
 	s_obj.init(io);
 	s_obj.initSS(ss);
 
+	app.get('/get_audio', main.get_audio)
+	app.get('/get_news', main.get_news)
 	app.get('/*', main.home)
 
 }

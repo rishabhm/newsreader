@@ -11,6 +11,8 @@
 		"mongoose" : "*",
 		"node-static" : "*",
 		"session.socket.io" : "*",
-		"socket.io" : "*"
+		"socket.io" : "*",
+		"scrape" : "*",
+		"unirest" : "*"
 	}
 }
